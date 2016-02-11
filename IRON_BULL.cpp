@@ -189,6 +189,7 @@ void tribe()
 	/*Riddle*/
 	if (playerChoice == "1")
 	{
+		std::cout << "[RIDDLE]" << std::endl;
 		std::cout << "What has mountains but no earth, " << std::endl;
 		std::cout << "Rivers but no water," << std::endl;
 		std::cout << "Fields but no crops." << std::endl;
@@ -221,6 +222,7 @@ void tribe()
 	}
 	else if (playerChoice == "2")
 	{
+		std::cout << "[FIGHT]" << std::endl;
 		std::cout << "You have decided to fight the warrior" << std::endl;
 		fightTribe();
 	}
@@ -289,7 +291,7 @@ void goEast()
 int main()
 {
 
-	std::cout << "Welcome" << std::endl;
+	//std::cout << "Welcome" << std::endl;
 	std::cout << "---------IRON BULL---------" << std::endl;
 
 	std::cout << "You are Iron Bull leader of the Sioux tribe, esteemed leader\nwhose honours will leave stories for generations.\n" << std::endl;
@@ -299,7 +301,7 @@ int main()
 	std::cout << "The dawn Rises on the tribe marking a new day you are in\nyour tipi sitting by the fire for warmth with the council.\n" << std::endl;
 	std::cout << "With few warriors remaining among the tribe plans to train\nyounger members are being discussed among the elders.\n" << std::endl;
 	std::cout << "The entrance to the tipi opens and along with the harsh\nwinter enters one of the tribe’s warriors." << std::endl;
-	std::cout << "He speaks of the buffalo, he tells you they have gone\nmissing in the night and the frozen ground has left no footprints to follow." << std::endl;
+	std::cout << "He speaks of the buffalo, he tells you they have gone\nmissing in the night and the frozen ground has left no footprints to follow.\n" << std::endl;
 	system("pause");
 	
 	std::cout << "As one of the few left who can find them you and two\nwarriors decide to embark on a journey to find the buffalo." << std::endl;
