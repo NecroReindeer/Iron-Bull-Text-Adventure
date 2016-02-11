@@ -1,3 +1,30 @@
+// Iron_Bull.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+
+std::string getWord()
+{
+	std::cout << "Enter a choice: ";
+	std::string line;
+	std::getline(std::cin, line);
+
+	if (line.length() > 1 && isalpha(line[0]))
+	{
+		for (int i = 0; i < line.length(); i++)
+		{
+			line[i] = toupper(line[i]);
+		}
+		return line;
+	}
+
+	else
+	{
+		std::cout << "Password is not the correct length.";
+	}
+}
+
+std::string goEast()
 {
 	/*Go East*/
 	std::cout << "After leaving the confines of the tribe walls\nyou come to face the rising sun upon turning East.\n" << std::endl;
@@ -22,4 +49,27 @@
 		std::cout << "Heading down the hillside, and along the flowing stream, your group continue on in the search for the buffalo." << std::endl;
 		std::cout << "The stream leads into a watering hole, however there are no buffalo to be seen. " << std::endl;
 
+	return goEast();
+}
+
+int main()
+{
+	std::cout << "Welcome" << std::endl;
+	std::cout << "1. East\n2. West" << std::endl;
+	std::string locationChoice = getWord();
+	
+	if (locationChoice == "1")
+		goEast();
+
+	/*
+	switch (userInput)
+	{
+	case i:
+	{
+	std::cout << "Something 1" << std::endl;
+	}
+	}
+	*/
+
+	return 0;
 }
