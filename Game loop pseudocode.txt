@@ -1,0 +1,6 @@
+Display narrative text
+Display choices
+READ input from player
+IF input is valid
+	Check which option the player entered
+	Move the game to the correct branch
