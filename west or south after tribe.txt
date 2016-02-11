@@ -1,13 +1,18 @@
 AFTER TESTS:
 You have failed the tests set by the other tribe. They refuse to tell you where the buffalo are.
 OR
-You passed the others tribe’s tests, the chief tells you that they’ve seen many buffalo in the west.
+You passed the others tribeâ€™s tests, the chief tells you that theyâ€™ve seen many buffalo in the west.
 
-Do you want to go to the south or the west?
+Do you want to go:  
+  1. to the south?
+  2. to the west?
 USER INPUT
 
 SOUTH:
-Ahead you see a number of cowboys, they have spotted you! Do you want to fight or run?
+Ahead you see a number of cowboys, they have spotted you! 
+Do you want to:
+  1. fight?
+  2. run?
 
 FIGHT:
 You are outnumbered, they are all armed with guns. They quickly kill you and end your search for the buffalo.
