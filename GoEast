@@ -1,0 +1,58 @@
+// Iron_Bull.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+
+
+std::string PlayerInput()
+{
+	std::string playerChoice;
+	std::getline(std::cin, playerChoice);
+	return playerChoice;
+}
+
+void goEast()
+{
+	/*Go East*/
+	std::cout << "\n[EAST]\n" << std::endl;
+	std::cout << "After leaving the confines of the tribe walls\nyou come to face the rising sun upon turning East.\n" << std::endl;
+	std::cout << "The grassy plains reach the horizon with distant\nmountains set against a sunny blue canvas.\n" << std::endl;
+	std::cout << "This endless landscape give you encouragement for your search for the buffalo.\n" << std::endl;
+	std::cout << "As the wind rushes through the tall grass\nyou hear the whispers of your ancestors, and feel the power of the hunt.\n" << std::endl;
+	std::cout << "Both you and your companions march on until you come across a stream." << std::endl;
+	std::cout << "The water is steady and runs down the hillside." << std::endl;
+	std::cout << "The chance of a watering hole is increased by this sight of flowing water,\nbut which way do you go?\n" << std::endl;
+	std::cout << "1. Up stream" << std::endl;
+	std::cout << "2. Down stream" << std::endl;
+	
+	std::string streamChoice = PlayerInput();
+
+	/*Go upstream*/
+	if (streamChoice == "1")
+	{
+		std::cout << "Your direction takes you upstream as the water begins to become more rapid and splashes at your feet." << std::endl;
+		std::cout << "The rocks are uneven but you march alongside the water." << std::endl;
+	}
+
+	/*Go downstream*/
+	else if (streamChoice == "2")
+	{
+		std::cout << "Heading down the hillside, and along the flowing stream, your group continue on in the search for the buffalo." << std::endl;
+		std::cout << "The stream leads into a watering hole, however there are no buffalo to be seen. " << std::endl;
+	}
+	else
+	{
+		std::cout << "There's only two choices, 1 or 2" << std::endl;
+	}
+}
+
+int main()
+{
+	std::cout << "Welcome" << std::endl;
+
+	goEast();
+
+	system("pause");
+	return 0;
+
+}
