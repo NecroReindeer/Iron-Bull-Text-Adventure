@@ -1,0 +1,26 @@
+You head east and emerge onto some vast, dry plains. You’re not sure which direction you should begin travelling in, until you notice a small stream glistening in the distance. You consider that the buffalo may be nearby a source of water, and decide to see where the stream leads.
+1. Travel up the stream
+2. Travel down the stream
+
+(Travel up the stream)
+You make your way up the stream, eventually reaching the edge of a cliff. You can either turn back and travel back down the stream, or attempt to make your way to the bottom of the cliff. The climb down may be risky, and you won’t be able to go back up.
+1. Turn back 
+2. Climb down the cliff
+
+(Climb down the cliff)
+After a few close shaves, you eventually make it safely to the bottom of the cliff. You notice some buffalo tracks nearby that appear to be heading in the direction of a watering hole you know of. You could follow the tracks and try to catch up to the buffalo, or attempt to cut them off on their way to the watering hole.
+1. Follow the tracks
+2. Attempt to cut off the buffalo
+
+(Follow the tracks)
+You follow the buffalo tracks through the plains. Eventually, night falls, and you are no longer able to see the tracks easily. You can either call it a day and head back to the camp, or continue trying to follow the tracks through the darkness.
+1. Return to camp
+2. Continue trying to follow the tracks
+
+(Return to camp)
+You return to the camp with no idea where the buffalo are located, to the disappointment of your fellow tribesmen. The day was a waste, and you have no choice but to begin the search again once dawn breaks.
+
+OR
+
+(Continue trying to follow the tracks)
+You persevere and slowly make your way along the tracks in the darkness. Just as you think you’re reaching the end, you suddenly hear the roar of a cougar and feel something sharp hit your back. Taken by surprise, you find yourself at the cougar’s mercy and unable to fight back. You pray that the rest of your tribe manages to find buffalo, as pain burns through your body and everything turns black.
